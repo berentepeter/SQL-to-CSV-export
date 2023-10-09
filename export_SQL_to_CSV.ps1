@@ -4,14 +4,14 @@
 $SQLServer = "server"  
 $SQLDBName = "database"   
 $CSV_Name = "csv_filename"
-$CSV_Path = "C:\DV"
+$CSV_Path = "C:\folder"
 $delimiter = ";"
 
 #################
 ##  SQL Query  ##
 #################
 
-#$SqlQuery = Get-Content -Path C:\DV\new.sql -Raw
+#$SqlQuery = Get-Content -Path C:\folder\new.sql -Raw
 
 $SqlQuery = "SELECT * FROM Person"
 
